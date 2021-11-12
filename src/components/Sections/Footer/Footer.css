@@ -1,0 +1,22 @@
+.footer{
+    padding-top: 100px;
+}
+.widget-area {
+    max-width: 250px;
+}
+.widget-area img {
+    max-width: 185px;
+    margin-bottom: 10px;
+}
+.widget-area h4 {
+    margin-bottom: 24px;
+}
+.app-download img {
+    width: 130px;
+}
+.widget-area a {
+    text-decoration: none;
+}
+.copyright {
+    margin-top: 50px;
+}

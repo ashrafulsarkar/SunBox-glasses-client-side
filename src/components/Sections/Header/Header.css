@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;700;900&family=Quicksand:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #505050;
+}
+img {
+    width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    box-shadow: none !important;
+    color: #00a790;
+}
+a,
+button {
+    color: #505050;
+    outline: medium none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #222222;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 700;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #505050;
+    margin-bottom: 15px;
+}
+hr {
+    border-bottom: 1px solid rgba(132, 130, 130, 0.3);
+    border-top: 0 none;
+    margin: 0;
+    padding: 0;
+}
+label {
+    color: #444;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-placeholder {
+    color: #A7A7A7;
+    font-size: 14px;
+    opacity: 1;
+}
+*::placeholder {
+    color: #A7A7A7;
+    font-size: 14px;
+    opacity: 1;
+}
+/* button style */
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn:hover {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+.btn-border {
+    border-color: #fff;
+    background: transparent;
+}
+
+/* header area */
+.header-full-part {
+    background: rgba(0, 168, 146, 0.04);
+}
+.logo {
+    width: 177px;
+}
+.main-menu a,
+.main-menu span,
+.main-menu .logout-btn,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    padding: 50px 18px;
+    display: block;
+    margin: 0;
+    background: none;
+    color: rgba(0, 0, 0, 0.712);
+    border: none;
+    box-shadow: none;
+}
+.main-menu .logout-btn {
+    padding: 52px 18px;
+}
+.main-menu a:focus,
+.main-menu a:hover {
+    color: #00a790;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar {
+    justify-content: flex-end;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus, .btn,
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:hover{
+    background: none;
+    color: #707071;
+    border: 0;
+    box-shadow: none;
+    padding: 8px;
+}
+.deshboard-menu li button, .deshboard-menu li button:hover, .deshboard-menu li button:focus, .deshboard-menu li button:active, .deshboard-menu li button:active:focus, .deshboard-menu .btn-primary:hover {
+    padding: 5px !important;
+    color: #505050 !important;
+}
+.deshboard-menu li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+
+@media (max-width: 991px){
+    .main-menu {
+        position: relative;
+        margin-top: -49px;
+    }
+    .slider-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 160px 0;
+    }
+    .site-tile h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .main-menu a {
+        padding: 8px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        background: white;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 72px;
+        z-index: 999;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    .main-menu span,
+    .main-menu .logout-btn{
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .deshboard-menu .desh-text {
+        display: none;
+    }
+    .left-menu {
+        position: relative;
+    }
+    .deshboard-menu {
+        position: absolute;
+        box-shadow: 0 0 6px 0px #d3d3d3;
+        padding: 5px;
+    }
+}

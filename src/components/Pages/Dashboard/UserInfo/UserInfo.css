@@ -1,0 +1,11 @@
+.userinfo label {
+    display: block;
+    width: 100%;
+}
+.userinfo input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    height: 40px;
+    padding: 0 10px;
+}

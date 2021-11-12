@@ -1,0 +1,19 @@
+.section-p{
+    padding: 80px 0;
+}
+.site-title h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.all-product-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.all-product-btn a {
+    text-decoration: none;
+    background: #faed00;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 4px;
+    display: inline-block;
+}

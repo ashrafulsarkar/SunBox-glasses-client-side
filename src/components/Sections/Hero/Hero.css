@@ -1,0 +1,21 @@
+.heroPart {
+    padding: 170px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-text h3 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.hero-text h4 {
+    font-size: 35px;
+}
+.hero-text a {
+    background: #f8f9fa;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #265790;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-decoration: none;
+}

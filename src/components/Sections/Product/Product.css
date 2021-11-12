@@ -1,0 +1,32 @@
+.single-product {
+    box-shadow: 0 0 20px 2px #e5e5e5cf;
+    background: white;
+}
+.product-details {
+    text-align: center;
+    padding: 30px;
+}
+.product-details a {
+    background: #faed00;
+    padding: 10px 16px;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.product-details p {
+    margin-bottom: 0;
+}
+.product-details h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.bestRating {
+    background: #f7f7f7;
+}
+.product-details p.review-massage{
+    margin-bottom: 16px;
+}
+.product-details p svg {
+    color: orange;
+}

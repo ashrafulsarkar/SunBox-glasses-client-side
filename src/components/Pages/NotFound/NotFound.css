@@ -1,0 +1,12 @@
+.not-found h3{
+    font-size: 40px;
+}
+.not-found a {
+    padding: 10px 30px;
+    background: #faed00;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+}

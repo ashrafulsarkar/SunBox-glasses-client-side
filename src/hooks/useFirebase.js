@@ -46,7 +46,7 @@ const useFirebase = () => {
      const saveuserInfoDB = (email, displayName)=>{
         setIsLoading(true);
         const user = {email, displayName};
-        fetch('http://localhost:5000/user',{
+        fetch('https://cryptic-basin-27596.herokuapp.com/user',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
@@ -82,7 +82,7 @@ const useFirebase = () => {
     
     useEffect(()=>{
         setAdminLoading(true);
-        fetch(`http://localhost:5000/user/${user?.email}`)
+        fetch(`https://cryptic-basin-27596.herokuapp.com/user/${user?.email}`)
         .then(res => res.json())
         .then(data => {
             const role = data[0]?.role;

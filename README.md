@@ -7,6 +7,9 @@ Sunglasses are one of the most important gear people wear while enjoying differe
 
 ## Feature Overview
 
+* Login and registration system added.
+* Admin and user dashboard system.
+* Buy easily and checkout.
 * Beautiful Sunglasses
 * Easy Buy Proccess
 * Quick Delevary
